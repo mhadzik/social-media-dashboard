@@ -4,7 +4,8 @@
   "description": "![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +17,13 @@
     "scss-loader": "0.0.1",
     "style-loader": "^1.1.4",
     "webpack": "^4.42.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kipis98/Social-media-dashboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kipis98/Social-media-dashboard/issues"
+  },
+  "homepage": "https://github.com/kipis98/Social-media-dashboard#readme"
 }
