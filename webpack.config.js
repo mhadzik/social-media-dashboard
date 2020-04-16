@@ -12,17 +12,23 @@ module.exports = {
 
     module: {
         rules: [{
-            test: /.s[ac]ss$/i,
-            use: [
-                // Creates style nodes from JS strings
-                'style-loader',
-                // Translates CSS into CommonJS
-                'raw-loader',
-                // Resolve URL related issues
-                // 'resolve-url-loader',
-                // Compiles Sass to CSS
-                'sass-loader',
-            ],
+            test: /.(scss)$/i,
+            use: [{
+                loader: 'style-loader', // inject CSS to page
+            }, {
+                loader: 'css-loader', // translates CSS into CommonJS modules
+            }, {
+                loader: 'postcss-loader', // Run postcss actions
+                options: {
+                    plugins: function () { // postcss plugins, can be exported to postcss.config.js
+                        return [
+                            require('autoprefixer')
+                        ];
+                    }
+                }
+            }, {
+                loader: 'sass-loader' // compiles Sass to CSS
+            }],
         }, ]
 
     },
