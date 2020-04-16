@@ -1,0 +1,45 @@
+// General
+
+$general-font-family: 'Inter',
+sans-serif;
+$primary-font-weight: 700;
+$secondary-font-weight: 400;
+$card-heading-font-size: 14px;
+$top-card-numbers-font-size: 30px;
+$bot-card-numbers-font-size: 26px;
+$heading-font-size: 25px;
+$notification-font-color-positive: hsl(163, 72%, 41%);
+$notification-font-color-negative: hsl(356, 69%, 56%);
+$card-border-radius: 2%;
+
+
+// Social Media borders
+
+$facebook-color: hsl(195, 100%, 50%);
+$twitter-color: hsl(203, 89%, 53%);
+$instagram-color: linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%);
+$youtube-color: hsl(348, 97%, 39%);
+
+// Mode Switcher
+
+$switcher-font-size: 16px;
+$switcher-font-color: white;
+$switcher-toggle-color-dark: linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%);
+$switcher-toggle-color-light: hsl(230, 22%, 74%);
+
+
+// Dark Theme variables
+
+$background-color-dark: hsl(230, 17%, 14%);
+$background-top-color-dark: hsl(232, 19%, 15%);
+$card-background-color-dark: hsl(228, 28%, 20%);
+$primary-font-color-dark: hsl(228, 34%, 66%);
+$secondary-font-color-dark: hsl(0, 0%, 100%);
+
+// Light Theme variables
+
+$background-color-light: hsl(0, 0%, 100%);
+$background-top-color-light: hsl(225, 100%, 98%);
+$card-background-color-light: hsl(227, 47%, 96%);
+$primary-font-color-light: hsl(228, 12%, 44%);
+$secondary-font-color-light: hsl(230, 17%, 14%);
