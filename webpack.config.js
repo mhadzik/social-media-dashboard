@@ -1,15 +1,27 @@
 const {
     resolve
 } = require('path');
-
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
+    mode: 'development',
     entry: './src/scripts/index.js',
     output: {
         path: resolve(__dirname, "dist/"),
         filename: 'bundle.js'
     },
-
+    devtool: 'inline-source-map',
+    devServer: {
+        contentBase: resolve(__dirname, "dist/"),
+    },
+    plugins: [
+        // new CleanWebpackPlugin(['dist/*']) for < v2 versions of CleanWebpackPlugin
+        new CleanWebpackPlugin(),
+        new HtmlWebpackPlugin({
+            template: './index.html'
+        }),
+    ],
     module: {
         rules: [{
             test: /.(scss)$/i,
@@ -29,7 +41,7 @@ module.exports = {
             }, {
                 loader: 'sass-loader' // compiles Sass to CSS
             }],
-        }, ]
+        },]
 
     },
 };
