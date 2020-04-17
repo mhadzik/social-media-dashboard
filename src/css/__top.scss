@@ -1,7 +1,86 @@
 .heading {
+    font-family: $general-font-family;
 
     &__h1 {
-        font-family: $general-font-family;
-        font-size: 50px;
+        font-size: $top-heading-font-size;
+        font-weight: $primary-font-weight;
+        color: $secondary-font-color-dark;
+        margin-top: 30px;
+
+        &--numbers {
+            font-size: $top-card-numbers-font-size;
+            font-weight: $primary-font-weight;
+            color: $secondary-font-color-dark;
+
+        }
+    }
+
+    &__h2 {
+        font-size: $card-heading-font-size;
+        font-weight: $primary-font-weight;
+        color: $primary-font-color-dark;
+        margin-bottom: 30px;
+
+
+        &--switcher {
+            font-size: $switcher-font-size;
+            font-weight: $primary-font-weight;
+            float: right;
+            color: $secondary-font-color-dark;
+            margin-top: 30px;
+
+
+        }
+
+
+    }
+
+    &__paragraph {
+        font-size: $card-heading-font-size;
+        font-weight: $primary-font-weight;
+        color: $primary-font-color-dark;
+        display: inline-block;
+        margin-bottom: 40px;
+
+
+        &--followers {
+            color: $primary-font-color-dark;
+            font-size: $card-heading-font-size;
+            font-weight: $secondary-font-weight;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            margin-bottom: 40px;
+            margin-top: 40px;
+
+
+        }
+
+        &--status-positive {
+            color: $notification-font-color-positive;
+            font-weight: $primary-font-weight;
+            display: inline-block;
+
+
+        }
+
+        &--status-negative {
+            color: $notification-font-color-negative;
+            font-weight: $primary-font-weight;
+            display: inline-block;
+
+
+        }
+
+    }
+
+    &__card {
+        margin-bottom: 15px;
+
+
+    }
+
+    .top-background {
+        background-color: $background-top-color-dark;
+        height: auto;
     }
 }

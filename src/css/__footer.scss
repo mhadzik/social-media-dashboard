@@ -1,0 +1,17 @@
+.footer {
+    font-family: $general-font-family;
+    border-top: 1px solid $primary-font-color-dark;
+    margin-top: 50px;
+
+
+    &__paragraph {
+        font-size: $card-heading-font-size;
+        font-weight: $secondary-font-weight;
+        color: $secondary-font-color-dark;
+        margin-top: 20px;
+    }
+
+    &__link {
+        color: $notification-font-color-positive;
+    }
+}
