@@ -86,6 +86,11 @@
     height: auto;
 }
 
+.top-background-light {
+    background-color: $background-top-color-light;
+    height: auto;
+}
+
 .border-facebook {
     border-top: 5px solid $facebook-color;
 }
@@ -102,4 +107,44 @@
 
 .border-youtube {
     border-top: 5px solid $youtube-color;
+}
+
+.heading__h1-light {
+    font-size: $top-heading-font-size;
+    font-weight: $primary-font-weight;
+    color: $secondary-font-color-light;
+    margin-top: 30px;
+}
+
+.heading__h1--numbers-light {
+    font-size: $top-card-numbers-font-size;
+    font-weight: $primary-font-weight;
+    color: $secondary-font-color-light;
+}
+
+.heading__h2--switcher-light {
+    font-size: $switcher-font-size;
+    font-weight: $primary-font-weight;
+    color: $secondary-font-color-light;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.footer__paragraph-light {
+    font-size: $card-heading-font-size;
+    font-weight: $secondary-font-weight;
+    color: $secondary-font-color-light;
+    margin-top: 20px;
+}
+
+.bot-heading__h1-light {
+    font-size: $bot-heading-font-size;
+    font-family: $general-font-family;
+    font-weight: $primary-font-weight;
+    color: $secondary-font-color-light;
+}
+
+.bot-card__content--row-value__h1-light {
+    font-size: $bot-card-numbers-font-size;
+    color: $secondary-font-color-light;
 }

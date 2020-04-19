@@ -77,3 +77,15 @@
         }
     }
 }
+
+.bot-card__content-light {
+    padding: 20px 10px;
+    border-radius: $card-border-radius;
+    background-color: $card-background-color-light;
+
+}
+
+.bot-card__h1-light {
+    font-size: $bot-card-numbers-font-size;
+    color: $secondary-font-color-light;
+}
