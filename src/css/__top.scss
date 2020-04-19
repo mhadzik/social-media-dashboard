@@ -1,0 +1,150 @@
+.heading {
+    font-family: $general-font-family;
+
+    &__h1 {
+        font-size: $top-heading-font-size;
+        font-weight: $primary-font-weight;
+        color: $secondary-font-color-dark;
+        margin-top: 30px;
+
+        &--numbers {
+            font-size: $top-card-numbers-font-size;
+            font-weight: $primary-font-weight;
+            color: $secondary-font-color-dark;
+
+        }
+    }
+
+    &__h2 {
+        font-size: $card-heading-font-size;
+        font-weight: $primary-font-weight;
+        color: $primary-font-color-dark;
+        margin-bottom: 30px;
+
+
+        &--switcher {
+            font-size: $switcher-font-size;
+            font-weight: $primary-font-weight;
+            color: $secondary-font-color-dark;
+            margin-top: 30px;
+            display: inline-block;
+
+
+        }
+
+
+    }
+
+    &__paragraph {
+        font-size: $card-heading-font-size;
+        font-weight: $primary-font-weight;
+        color: $primary-font-color-dark;
+        display: inline-block;
+        margin-bottom: 40px;
+
+
+        &--followers {
+            color: $primary-font-color-dark;
+            font-size: $card-heading-font-size;
+            font-weight: $secondary-font-weight;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            margin-bottom: 40px;
+            margin-top: 40px;
+
+
+        }
+
+        &--status-positive {
+            color: $notification-font-color-positive;
+            font-weight: $primary-font-weight;
+            display: inline-block;
+
+
+        }
+
+        &--status-negative {
+            color: $notification-font-color-negative;
+            font-weight: $primary-font-weight;
+            display: inline-block;
+
+
+        }
+
+    }
+
+    &__card {
+        margin-bottom: 15px;
+
+
+    }
+
+}
+
+.top-background {
+    background-color: $background-top-color-dark;
+    height: auto;
+}
+
+.top-background-light {
+    background-color: $background-top-color-light;
+    height: auto;
+}
+
+.border-facebook {
+    border-top: 5px solid $facebook-color;
+}
+
+.border-twitter {
+    border-top: 5px solid $twitter-color;
+}
+
+.border-instagram {
+    border-top: 5px solid;
+    border-image: linear-gradient(90deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+    border-image-slice: 1;
+}
+
+.border-youtube {
+    border-top: 5px solid $youtube-color;
+}
+
+.heading__h1-light {
+    font-size: $top-heading-font-size;
+    font-weight: $primary-font-weight;
+    color: $secondary-font-color-light;
+    margin-top: 30px;
+}
+
+.heading__h1--numbers-light {
+    font-size: $top-card-numbers-font-size;
+    font-weight: $primary-font-weight;
+    color: $secondary-font-color-light;
+}
+
+.heading__h2--switcher-light {
+    font-size: $switcher-font-size;
+    font-weight: $primary-font-weight;
+    color: $secondary-font-color-light;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.footer__paragraph-light {
+    font-size: $card-heading-font-size;
+    font-weight: $secondary-font-weight;
+    color: $secondary-font-color-light;
+    margin-top: 20px;
+}
+
+.bot-heading__h1-light {
+    font-size: $bot-heading-font-size;
+    font-family: $general-font-family;
+    font-weight: $primary-font-weight;
+    color: $secondary-font-color-light;
+}
+
+.bot-card__content--row-value__h1-light {
+    font-size: $bot-card-numbers-font-size;
+    color: $secondary-font-color-light;
+}

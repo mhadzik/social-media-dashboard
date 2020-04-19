@@ -1,0 +1,91 @@
+.bot-heading {
+    &__h1 {
+        font-size: $bot-heading-font-size;
+        font-family: $general-font-family;
+        font-weight: $primary-font-weight;
+        color: $secondary-font-color-dark;
+    }
+}
+
+
+.bot-card {
+    border-radius: $card-border-radius;
+
+    &__content {
+        padding: 20px 10px;
+        border-radius: $card-border-radius;
+        background-color: $card-background-color-dark;
+
+        &--small {
+            height: 150px;
+        }
+
+        &--large {
+            height: 300px;
+        }
+
+
+
+        &--row-title {
+            margin-bottom: 50px;
+
+            &__h1 {
+                font-size: $card-heading-font-size;
+                color: $primary-font-color-dark;
+
+            }
+        }
+
+        &--row-icon {
+            margin-bottom: 50px;
+
+            &__svg {
+                float: right;
+                margin-right: 10px;
+            }
+        }
+
+        &--row-value {
+            margin-bottom: 15px;
+
+            &__h1 {
+                font-size: $bot-card-numbers-font-size;
+                color: $secondary-font-color-dark;
+
+            }
+        }
+
+        &--row-notification {
+            margin-bottom: 15px;
+
+            &__elements {
+                float: right;
+                margin-right: 10px;
+
+                &__h1-up {
+                    display: inline-block;
+                    font-size: $card-heading-font-size;
+                    color: $notification-font-color-positive;
+                }
+
+                &__h1-down {
+                    display: inline-block;
+                    font-size: $card-heading-font-size;
+                    color: $notification-font-color-negative;
+                }
+            }
+        }
+    }
+}
+
+.bot-card__content-light {
+    padding: 20px 10px;
+    border-radius: $card-border-radius;
+    background-color: $card-background-color-light;
+
+}
+
+.bot-card__h1-light {
+    font-size: $bot-card-numbers-font-size;
+    color: $secondary-font-color-light;
+}
