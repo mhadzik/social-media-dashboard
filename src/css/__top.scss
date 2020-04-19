@@ -25,9 +25,9 @@
         &--switcher {
             font-size: $switcher-font-size;
             font-weight: $primary-font-weight;
-            float: right;
             color: $secondary-font-color-dark;
             margin-top: 30px;
+            display: inline-block;
 
 
         }
@@ -79,8 +79,27 @@
 
     }
 
-    .top-background {
-        background-color: $background-top-color-dark;
-        height: auto;
-    }
+}
+
+.top-background {
+    background-color: $background-top-color-dark;
+    height: auto;
+}
+
+.border-facebook {
+    border-top: 5px solid $facebook-color;
+}
+
+.border-twitter {
+    border-top: 5px solid $twitter-color;
+}
+
+.border-instagram {
+    border-top: 5px solid;
+    border-image: linear-gradient(90deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+    border-image-slice: 1;
+}
+
+.border-youtube {
+    border-top: 5px solid $youtube-color;
 }
